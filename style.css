@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 section{
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 .introduction h1{
     
@@ -32,7 +32,7 @@ section{
 .white-color{
     color:white;
 }
-.donate-area h1
+.head-fonts
 {
     font-size: 40px;
 }
@@ -78,4 +78,38 @@ section{
     border-bottom: 2px solid rgba(128, 128, 128, 0.419);
     width:50%;
     margin-left: 300px;
+}
+.donate-plan-area
+{
+    text-align: center;
+}
+.donate-plans
+{
+    height:300px;
+    width:1200px;
+    display: flex;
+}
+.donate-plan1{
+    background-color: antiquewhite;
+
+}
+.donate-plan2{
+ background-color:darkkhaki;
+ 
+}
+.donate-plan2 img{
+    width:55px;
+}
+.donate-plan3{
+background-color: cadetblue;
+
+}
+.donate-plan3 img{
+    width:55px;
+}
+.donate-all-plans
+{
+    width:400px;
+    border-radius: 5px;
+    margin: 0 20px;
 }
