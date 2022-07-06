@@ -2,7 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
 }
-h1{
+section{
+    margin-bottom: 20px;
+}
+.introduction h1{
     
     font-size: 60px;
 }
@@ -28,4 +31,51 @@ h1{
 
 .white-color{
     color:white;
+}
+.donate-area h1
+{
+    font-size: 40px;
+}
+.donate-area
+{
+  text-align: center;
+  
+ 
+}
+
+.money-amount
+{
+    display: flex;
+}
+
+.money-box
+{
+    border:10px solid white;
+    height:70px;
+    background-color: whitesmoke;
+    color:rgba(0, 0, 0, 0.661);
+    font-size: 18px;
+    font-weight:200;
+    padding: 5px;
+    margin:10px;
+    
+}
+.red-border
+{
+    border:2px solid tomato;
+    color:tomato;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.136);
+    border-radius: 5px;
+}
+.first-box
+{
+    margin-left:400px;
+}
+
+.other-amount{
+    color:rgba(0, 0, 0, 0.236) ;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.419);
+    width:50%;
+    margin-left: 300px;
 }
