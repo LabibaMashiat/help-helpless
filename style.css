@@ -130,7 +130,48 @@ background-color: cadetblue;
 .half-width img{
     width:100%;
     height:80%;
+    border-radius: 5px;
    
+}
+.updates
+{
+    text-align: center;
+}
+.email-verification
+{
+    padding:80px;
+    background-color: antiquewhite;
+    margin:0 250px;
+    border-radius: 5px;
+}
+.red-subscribe-box
+{
+    background-color: tomato;
+    padding:20px;
+    border: 2px solid tomato;
+    color:white;
+}
+.email-button
+{
+    background-color: gray;
+    padding:20px 0;
+    padding-right:200px;
+    border: 2px solid gray;
+    opacity:0.4;
+    color:white;
+}
+footer h2{
+    color:tomato;
+    font-family: 'Lobster', cursive;
+
+}
+footer p{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color:rgb(22, 14, 25);
+    padding:50px 0;
 }
 
 
